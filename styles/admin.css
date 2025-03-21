@@ -94,3 +94,20 @@
 .bg {
     padding: .5rem !important;
 }
+
+@media screen and (max-width:768px) {
+    #admin {
+        display: block;
+    }
+
+    #admin-menu {
+        display: block;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .titleviewtable img {
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+}
