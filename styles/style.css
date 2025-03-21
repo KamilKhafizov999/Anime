@@ -1,0 +1,505 @@
+ul {
+    list-style-type: none;
+}
+
+body {
+    color: white;
+    background-image: url(/img/bg2.png);
+}
+
+.container, footer {
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0;
+    max-width: 90%;
+}
+
+.col {
+    padding-top: 7px;
+    text-align: center;
+}
+/* background-color: dimgrey; */
+
+.l-block {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 1rem !important;
+}
+
+.r-block {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 1rem !important;
+}
+
+.block-name {
+    color: orange;
+    border-bottom: 2px solid #444;
+}
+
+.col-center {
+    width: auto;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.table {
+    /*color: white;*/
+}
+
+.bg {
+    background-color: rgba(09, 09, 09, .8);
+}
+
+
+
+.anime_list {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.anime_list_top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: -2px -2px 8px 8px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: -2px -2px 8px 8px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: -3px -2px 8px 8px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .9) inset, 0 0 8px rgba(0, 0, 0, .7);
+    background: rgb(255,124,1);
+    background: linear-gradient(0deg, rgba(255,124,1,1) 0%, rgba(255,171,1,1) 100%);
+}
+
+.anime_list_top_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.anime_list_center {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #444;
+    padding: 10px 16px 10px 16px;
+    background: rgba(09, 09, 09, .8);
+}
+
+.anime_list_center_img {
+    float: left;
+    margin-right: 15px;
+}
+
+.anime_list_center_discription {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.discription_links {
+    color: white;
+}
+
+.anime_list_center_discription > div > label {
+    color: wheat;
+    margin-bottom: 0;
+}
+
+.row {
+	width: 100%;
+    margin-left: 0;
+}
+
+.row > div > ul {
+	padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.anime_list_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anime_list_bottom_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    padding: 0;
+}
+
+.left_menu {
+    padding: 0;
+}
+
+    .left_menu > div {
+        font-size: 18px;
+    }
+
+        .left_menu > div > a {
+            height: 33px;
+            width: 100%;
+            display: block;
+            border-bottom: 2px solid #444;
+            border-radius: 20px 0;
+        }
+
+            .left_menu > div > a:hover {
+                text-decoration: none;
+                border-bottom: 2px solid green;
+                color: green;
+            }
+
+        .left_menu > div:first-child {
+            color: orange;
+            border-bottom: 2px solid #444;
+        }
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.searchform {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchform_input {
+    width: 150px;
+}
+
+    .searchform_input::placeholder {
+        font-size: 13px;
+    }
+
+.searchform_btn {
+    width: 70px;
+}
+
+.col-left, .col-right {
+    max-width: 250px;
+    padding: 0;
+}
+
+.col-right > div > nav > ul {
+    padding: 0 5px;
+}
+.col-right > div > nav > ul {
+    padding: 0 5px;
+}
+#Loadleft > ul, #Loadright > ul {
+    padding: 0;
+}
+
+.auth_block {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.auth_block > button {
+    margin-top: 10px;
+}
+
+.auth_block_form {
+	color: #000;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+#auth, #reg, #restorePass {
+    display: none;
+}
+
+.orange-button, .searchform_btn {
+    color: #fff;
+    background: rgb(255,124,1);
+    background: linear-gradient(0deg, rgba(255,124,1,1) 0%, rgba(255,171,1,1) 100%);
+    border-color: orange;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.orange-button:hover, .searchform_btn:hover {
+    background-color: orangered;
+    border: 2px solid orange;
+    color: white;
+}
+
+.orange-button:active, .searchform_btn:active {
+    background-color: green;
+    border: 2px solid orange;
+}
+
+.orange-button:focus, .searchform_btn:focus {
+    border-color: orange;
+}
+
+.form-group > .btn, .form-group > img {
+    margin: 0 auto;
+}
+
+.genre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre > label {
+    margin: 0;
+}
+
+.genre > div {
+    margin-left: 7px;
+}
+
+.comments {
+    padding: 5px;
+    width: 100%;
+}
+
+.comments img {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+.comments>ul {
+    padding: 0;
+}
+
+.comments p {
+    overflow-wrap: anywhere;
+}
+
+.comments_formdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-button {
+    border: 3px solid #000;
+    display: none;
+    align-items: center;
+    padding: 3px;
+    position: fixed;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-color: #fff;
+    z-index: 10;
+    left: 10px;
+}
+
+.menu-button:focus {
+    outline: none;
+}
+
+.menu-button-right {
+    left: auto;
+    right: 10px;
+    background-image: url('/img/auth.png');
+}
+
+
+.pagination {
+    margin: 0 10px 0 10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.profile{
+
+}
+
+.w-30{
+    width: 40%;
+}
+.w-40 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.w-70 {
+    width: 70%;
+}
+
+.profile_block {
+    width: 100%;
+    align-items: center;
+    border-top: 2px solid gray;
+    margin: 2px;
+    padding: 2px;
+}
+
+.profile_block_avatar {
+    margin: 0 auto;
+    height: 300px;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment-text {
+    width: 100%;
+    background: white;
+    height: 100px;
+    color: #000;
+    border: 3px solid #000;
+    text-align: left;
+    padding: 3px;
+}
+
+.comment-text>p{
+    margin: 0;
+}
+
+
+.file-input {
+    position: relative;
+    display: inline-block;
+}
+
+.file-input input[type="file"] {
+    opacity: 0; /* Сделать input невидимым */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-input label {
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.file-input label span:nth-child(1) {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #000;
+    padding: 3px;
+}
+
+.file-input label span:nth-child(2) {
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.r-block nav {
+	padding: 0;
+	display: block;
+	height: 100%;
+    background: transparent;
+}
+
+.player{
+    width: 100%;
+}
+
+.video-player-container{
+    width: 85%;
+}
+.video-list-container {
+    width: 15%;
+}
+
+.modal-block {
+    opacity: 0;
+    display: none;
+}
+
+.authfrom-button_mobile {
+    display: none;
+}
+
+.col-right {
+    display: block;
+}
+
+#col-3 {
+    position: fixed;
+    right: 0;
+    top: 14%;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0 !important;
+}
+
+.player-block {
+    display: flex;
+}
+
+.volume-btn {
+    position: relative;
+    display: inline-block;
+}
+
+.volume-slider {
+    transform: rotate(-90deg);
+    display: none;
+    position: absolute;
+    bottom: 85px;
+    left: -35px;
+    width: 100px;
+}
+
+.show {
+    display: block;
+}
+
+.info_box img {
+    float: left;
+    margin-right: 10px;
+}
+
+.comments_formdiv label {
+    width: 30%;
+}

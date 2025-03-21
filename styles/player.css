@@ -1,0 +1,113 @@
+.video-player-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    height: 343px;
+}
+
+video {
+    width: 100%;
+    height: 343px;
+}
+
+video:fullscreen {
+    width: 100%;
+    height: auto;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(28, 28, 28, 0.9);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.progress-container {
+    flex-grow: 1;
+    margin: 0 10px;
+    cursor: pointer;
+    height: 5px;
+    background: #666;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #ff0000;
+    width: 0;
+    border-radius: 5px;
+}
+
+.time {
+    margin: 0 5px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 5px;
+    background: #333;
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    color: #ff0000; /* Цвет кнопок при наведении */
+}
+
+.player-select {
+    background: rgba(33, 33, 33, 0.8); /* Фон для выпадающего списка */
+    color: white; /* Цвет текста */
+    border: none; /* Без границ */
+    border-radius: 4px; /* Закругление углов */
+    padding: 5px; /* Отступ внутри элемента */
+    font-size: 16px; /* Размер шрифта */
+    margin-left: 10px; /* Отступ слева */
+}
+
+.player-select:hover {
+    background: rgba(33, 33, 33, 1); /* Темный фон при наведении */
+    color: #ff0000; /* Цвет текста при наведении */
+}
+
+/* Добавление стрелки для выбора видео */
+#videoSelect::after {
+    content: '▼'; /* Символ стрелки вниз */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white; /* Цвет стрелки */
+    pointer-events: none; /* Чтобы стрелка не перекрывала клики */
+}

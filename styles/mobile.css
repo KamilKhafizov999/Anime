@@ -1,0 +1,219 @@
+@media screen and (max-width: 1200px) {
+    .col-left, .col-right {
+        max-width: 250px;
+        padding: 0;
+    }
+
+    .searchform {
+        flex-direction: column;
+    }
+
+    .searchform_input {
+        width: 190px;
+    }
+
+    .searchform_btn {
+        margin: 0 auto;
+    }
+
+    .my-sm-0 {
+        margin-top: .5rem !important;
+    }
+
+    .profile_block {
+        flex-direction: column;
+    }
+
+    .w-30, .w-40, .w-70 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container > .row {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .col {
+        padding: 0px;
+    }
+
+    .col-center {
+        padding: 0 10px !important;
+    }
+
+    .searchform_input {
+        width: 100%;
+    }
+
+    .searchform_btn {
+        width: 100%;
+    }
+
+    #col-1 {
+        order: -1;
+        display: none;
+    }
+
+    .col-left, .col-right {
+        display: flex;
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .l-block {
+        border-radius: 0;
+    }
+
+    .col {
+        margin: 0 auto;
+    }
+
+    .menu-block {
+        border-bottom-right-radius: 20px;
+    }
+
+    .menu-button {
+        display: flex;
+    }
+
+    .m-2 {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container > .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .anime_list_center_img {
+        float: none;
+        margin: 0;
+    }
+    .anime_list_center {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .anime_list_center {
+        flex-direction: column;
+    }
+}
+
+/*@media screen and (max-width:768px) {*/
+/*@media(max-device-width:768px) {*/
+@media screen and (max-width:768px) {
+    #pipBtn {
+        display: none;
+    }
+
+    .row, .col-center {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        padding: 2%;
+    }
+
+    .box {
+        width: auto;
+        margin: 25px auto;
+    }
+
+    .slide-img {
+        height: auto;
+    }
+
+    .anime {
+        justify-content: unset;
+        display: block;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    h3 {
+        overflow-wrap: break-word;
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .watch-btn {
+        font-size: 10pt;
+    }
+
+    .swiper-slide .swiper-content .swiper-caption {
+        font-size: 10pt;
+    }
+
+    .nav-menu .logo {
+        width: 100px;
+    }
+
+    .nav-menu .menu-icon, .nav-menu .cancel-icon, .nav-menu .search-icon {
+        margin: 0 7px;
+    }
+
+    .logo-img {
+        width: 100px;
+    }
+
+    .authfrom-button_mobile {
+        display: block;
+        outline: 0 !important;
+        border: none;
+    }
+
+    .col-right {
+        display: none;
+    }
+
+    .tdnn {
+        margin: 10px 10px;
+    }
+
+    .info_box img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .player-block {
+        display: block;
+    }
+    .video-player-container {
+        width: 100%;
+    }
+    
+    .container .video-list-container {
+        width: 100%;
+    }
+
+    .comments_formdiv {
+        flex-direction: column;
+    }
+    .comments_formdiv label {
+        width: 100%;
+    }
+    .info{
+        padding: 5px;
+    }
+}
